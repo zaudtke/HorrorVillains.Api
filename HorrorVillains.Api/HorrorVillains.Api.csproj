@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <includeHttpRuleProtos>true</includeHttpRuleProtos>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <NoWarn>CS1591</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Protobuf Include="..\Villain.Protos\protos\**\*.proto" ProtoRoot="..\Villain.Protos\" Link="protos/%(RecursiveDir)%(FileName)%(Extension)" />
+        <Protobuf Remove="..\Villain.Protos\protos\google\api\annotations.proto" />
+        <Protobuf Remove="..\Villain.Protos\protos\google\api\http.proto" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore" />
+      <PackageReference Include="Microsoft.AspNetCore.Grpc.JsonTranscoding" />
+      <PackageReference Include="Microsoft.AspNetCore.Grpc.Swagger" />
+      <PackageReference Include="Microsoft.AspNetCore.OpenApi" />
+      <PackageReference Include="Scalar.AspNetCore" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\" />
+    </ItemGroup>
+    
+
+</Project>

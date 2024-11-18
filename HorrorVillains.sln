@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villain.Protos", "Villain.Protos\Villain.Protos.csproj", "{0EC7DE7F-6F1B-4B22-AEFD-DFD801D2FBA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".solution", ".solution", "{AA4CFF8E-C51A-462A-B744-472952DD4B21}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorrorVillains.Api", "HorrorVillains.Api\HorrorVillains.Api.csproj", "{0C978F29-CADF-43F2-AA55-B90692DC2F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC7DE7F-6F1B-4B22-AEFD-DFD801D2FBA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC7DE7F-6F1B-4B22-AEFD-DFD801D2FBA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC7DE7F-6F1B-4B22-AEFD-DFD801D2FBA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC7DE7F-6F1B-4B22-AEFD-DFD801D2FBA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C978F29-CADF-43F2-AA55-B90692DC2F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C978F29-CADF-43F2-AA55-B90692DC2F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C978F29-CADF-43F2-AA55-B90692DC2F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C978F29-CADF-43F2-AA55-B90692DC2F56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
